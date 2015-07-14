@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		114B2BFC1A798BDF0071B8AD /* LBFIconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 114B2BFB1A798BDF0071B8AD /* LBFIconDownloader.m */; };
+		1173089F1A7B3F3400C2116F /* LBFHotelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1173089E1A7B3F3400C2116F /* LBFHotelViewCell.m */; };
+		1194AE351A7885A30074FA44 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1194AE321A78857B0074FA44 /* MapKit.framework */; };
+		1194AE3D1A7892C60074FA44 /* hotels.json in Resources */ = {isa = PBXBuildFile; fileRef = 1194AE3C1A7892C60074FA44 /* hotels.json */; };
+		1194AE401A7899E80074FA44 /* LBFModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1194AE3F1A7899E80074FA44 /* LBFModelObject.m */; };
+		1194AE421A789A460074FA44 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1194AE411A789A460074FA44 /* CoreData.framework */; };
+		1194AE451A789ADA0074FA44 /* LBFHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1194AE441A789ADA0074FA44 /* LBFHotel.m */; };
+		1194AE481A78A45D0074FA44 /* Hotels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1194AE461A78A45D0074FA44 /* Hotels.xcdatamodeld */; };
+		1194AE4B1A78A8DE0074FA44 /* LBFJsonImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1194AE4A1A78A8DE0074FA44 /* LBFJsonImporter.m */; };
+		11B3F47D1A784D3A00A30237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3F47C1A784D3A00A30237 /* main.m */; };
+		11B3F4801A784D3A00A30237 /* LBFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3F47F1A784D3A00A30237 /* LBFAppDelegate.m */; };
+		11B3F4891A784D3A00A30237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11B3F4871A784D3A00A30237 /* Main.storyboard */; };
+		11B3F48B1A784D3A00A30237 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B3F48A1A784D3A00A30237 /* Images.xcassets */; };
+		11B3F48E1A784D3A00A30237 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B3F48C1A784D3A00A30237 /* LaunchScreen.xib */; };
+		11B3F49A1A784D3A00A30237 /* iOS_Coding_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B3F4991A784D3A00A30237 /* iOS_Coding_TestTests.m */; };
+		11B73DBD1A791AF9008813C4 /* LBFPersistentStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B73DBC1A791AF9008813C4 /* LBFPersistentStack.m */; };
+		11B73DC31A7923DB008813C4 /* LBFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B73DC01A7923DB008813C4 /* LBFListViewController.m */; };
+		11B73DC41A7923DB008813C4 /* LBFMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B73DC21A7923DB008813C4 /* LBFMapViewController.m */; };
+		11B73DC71A792455008813C4 /* LBFFetchedResultsControllerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11B73DC61A792455008813C4 /* LBFFetchedResultsControllerData.m */; };
+		11BEDFD01A7A709700786EF3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BEDFCF1A7A709700786EF3 /* CoreLocation.framework */; };
+		11BEDFD31A7A82FB00786EF3 /* LBFLocationObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BEDFD21A7A82FB00786EF3 /* LBFLocationObject.m */; };
+		11BEDFD61A7A93B400786EF3 /* LBFMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11BEDFD51A7A93B400786EF3 /* LBFMapAnnotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B3F4941A784D3A00A30237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B3F46F1A784D3A00A30237 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B3F4761A784D3A00A30237;
+			remoteInfo = "iOS Coding Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		114B2BFA1A798BDF0071B8AD /* LBFIconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBFIconDownloader.h; path = ../ViewControllers/LBFIconDownloader.h; sourceTree = "<group>"; };
+		114B2BFB1A798BDF0071B8AD /* LBFIconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBFIconDownloader.m; path = ../ViewControllers/LBFIconDownloader.m; sourceTree = "<group>"; };
+		1173089D1A7B3F3400C2116F /* LBFHotelViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFHotelViewCell.h; sourceTree = "<group>"; };
+		1173089E1A7B3F3400C2116F /* LBFHotelViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFHotelViewCell.m; sourceTree = "<group>"; };
+		1194AE321A78857B0074FA44 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1194AE3C1A7892C60074FA44 /* hotels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hotels.json; sourceTree = "<group>"; };
+		1194AE3E1A7899E70074FA44 /* LBFModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFModelObject.h; sourceTree = "<group>"; };
+		1194AE3F1A7899E80074FA44 /* LBFModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFModelObject.m; sourceTree = "<group>"; };
+		1194AE411A789A460074FA44 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1194AE431A789ADA0074FA44 /* LBFHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFHotel.h; sourceTree = "<group>"; };
+		1194AE441A789ADA0074FA44 /* LBFHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFHotel.m; sourceTree = "<group>"; };
+		1194AE471A78A45D0074FA44 /* Hotels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hotels.xcdatamodel; sourceTree = "<group>"; };
+		1194AE491A78A8DE0074FA44 /* LBFJsonImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFJsonImporter.h; sourceTree = "<group>"; };
+		1194AE4A1A78A8DE0074FA44 /* LBFJsonImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFJsonImporter.m; sourceTree = "<group>"; };
+		11B3F4771A784D3A00A30237 /* iOS Coding Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Coding Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B3F47B1A784D3A00A30237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B3F47C1A784D3A00A30237 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11B3F47E1A784D3A00A30237 /* LBFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBFAppDelegate.h; sourceTree = "<group>"; };
+		11B3F47F1A784D3A00A30237 /* LBFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBFAppDelegate.m; sourceTree = "<group>"; };
+		11B3F4881A784D3A00A30237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B3F48A1A784D3A00A30237 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		11B3F48D1A784D3A00A30237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		11B3F4931A784D3A00A30237 /* iOS Coding TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Coding TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B3F4981A784D3A00A30237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B3F4991A784D3A00A30237 /* iOS_Coding_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Coding_TestTests.m; sourceTree = "<group>"; };
+		11B73DBB1A791AF9008813C4 /* LBFPersistentStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFPersistentStack.h; sourceTree = "<group>"; };
+		11B73DBC1A791AF9008813C4 /* LBFPersistentStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFPersistentStack.m; sourceTree = "<group>"; };
+		11B73DBF1A7923DB008813C4 /* LBFListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFListViewController.h; sourceTree = "<group>"; };
+		11B73DC01A7923DB008813C4 /* LBFListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFListViewController.m; sourceTree = "<group>"; };
+		11B73DC11A7923DB008813C4 /* LBFMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMapViewController.h; sourceTree = "<group>"; };
+		11B73DC21A7923DB008813C4 /* LBFMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFMapViewController.m; sourceTree = "<group>"; };
+		11B73DC51A792455008813C4 /* LBFFetchedResultsControllerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFFetchedResultsControllerData.h; sourceTree = "<group>"; };
+		11B73DC61A792455008813C4 /* LBFFetchedResultsControllerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFFetchedResultsControllerData.m; sourceTree = "<group>"; };
+		11BEDFCF1A7A709700786EF3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		11BEDFD11A7A82FB00786EF3 /* LBFLocationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFLocationObject.h; sourceTree = "<group>"; };
+		11BEDFD21A7A82FB00786EF3 /* LBFLocationObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFLocationObject.m; sourceTree = "<group>"; };
+		11BEDFD41A7A93B400786EF3 /* LBFMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBFMapAnnotation.h; sourceTree = "<group>"; };
+		11BEDFD51A7A93B400786EF3 /* LBFMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBFMapAnnotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B3F4741A784D3A00A30237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BEDFD01A7A709700786EF3 /* CoreLocation.framework in Frameworks */,
+				1194AE421A789A460074FA44 /* CoreData.framework in Frameworks */,
+				1194AE351A7885A30074FA44 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B3F4901A784D3A00A30237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1194AE341A78858A0074FA44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11BEDFCF1A7A709700786EF3 /* CoreLocation.framework */,
+				1194AE411A789A460074FA44 /* CoreData.framework */,
+				1194AE321A78857B0074FA44 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1194AE361A7888790074FA44 /* Main App */ = {
+			isa = PBXGroup;
+			children = (
+				11B3F4871A784D3A00A30237 /* Main.storyboard */,
+				11B3F48C1A784D3A00A30237 /* LaunchScreen.xib */,
+				11B3F47E1A784D3A00A30237 /* LBFAppDelegate.h */,
+				11B3F47F1A784D3A00A30237 /* LBFAppDelegate.m */,
+			);
+			name = "Main App";
+			sourceTree = "<group>";
+		};
+		1194AE3B1A7892C60074FA44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				114B2BFA1A798BDF0071B8AD /* LBFIconDownloader.h */,
+				114B2BFB1A798BDF0071B8AD /* LBFIconDownloader.m */,
+				11B73DBB1A791AF9008813C4 /* LBFPersistentStack.h */,
+				11B73DBC1A791AF9008813C4 /* LBFPersistentStack.m */,
+				1194AE491A78A8DE0074FA44 /* LBFJsonImporter.h */,
+				1194AE4A1A78A8DE0074FA44 /* LBFJsonImporter.m */,
+				1194AE3E1A7899E70074FA44 /* LBFModelObject.h */,
+				1194AE3F1A7899E80074FA44 /* LBFModelObject.m */,
+				1194AE431A789ADA0074FA44 /* LBFHotel.h */,
+				1194AE441A789ADA0074FA44 /* LBFHotel.m */,
+				11BEDFD11A7A82FB00786EF3 /* LBFLocationObject.h */,
+				11BEDFD21A7A82FB00786EF3 /* LBFLocationObject.m */,
+				1194AE3C1A7892C60074FA44 /* hotels.json */,
+				1194AE461A78A45D0074FA44 /* Hotels.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11B3F46E1A784D3A00A30237 = {
+			isa = PBXGroup;
+			children = (
+				11B3F4791A784D3A00A30237 /* iOS Coding Test */,
+				11B3F4961A784D3A00A30237 /* iOS Coding TestTests */,
+				1194AE341A78858A0074FA44 /* Frameworks */,
+				11B3F4781A784D3A00A30237 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B3F4781A784D3A00A30237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B3F4771A784D3A00A30237 /* iOS Coding Test.app */,
+				11B3F4931A784D3A00A30237 /* iOS Coding TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B3F4791A784D3A00A30237 /* iOS Coding Test */ = {
+			isa = PBXGroup;
+			children = (
+				1194AE361A7888790074FA44 /* Main App */,
+				1194AE3B1A7892C60074FA44 /* Model */,
+				11B73DBE1A7923DB008813C4 /* ViewControllers */,
+				11B3F47A1A784D3A00A30237 /* Supporting Files */,
+			);
+			path = "iOS Coding Test";
+			sourceTree = "<group>";
+		};
+		11B3F47A1A784D3A00A30237 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B3F48A1A784D3A00A30237 /* Images.xcassets */,
+				11B3F47B1A784D3A00A30237 /* Info.plist */,
+				11B3F47C1A784D3A00A30237 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11B3F4961A784D3A00A30237 /* iOS Coding TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				11B3F4991A784D3A00A30237 /* iOS_Coding_TestTests.m */,
+				11B3F4971A784D3A00A30237 /* Supporting Files */,
+			);
+			path = "iOS Coding TestTests";
+			sourceTree = "<group>";
+		};
+		11B3F4971A784D3A00A30237 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11B3F4981A784D3A00A30237 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11B73DBE1A7923DB008813C4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				11B73DC51A792455008813C4 /* LBFFetchedResultsControllerData.h */,
+				11B73DC61A792455008813C4 /* LBFFetchedResultsControllerData.m */,
+				1173089D1A7B3F3400C2116F /* LBFHotelViewCell.h */,
+				1173089E1A7B3F3400C2116F /* LBFHotelViewCell.m */,
+				11B73DBF1A7923DB008813C4 /* LBFListViewController.h */,
+				11B73DC01A7923DB008813C4 /* LBFListViewController.m */,
+				11B73DC11A7923DB008813C4 /* LBFMapViewController.h */,
+				11B73DC21A7923DB008813C4 /* LBFMapViewController.m */,
+				11BEDFD41A7A93B400786EF3 /* LBFMapAnnotation.h */,
+				11BEDFD51A7A93B400786EF3 /* LBFMapAnnotation.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B3F4761A784D3A00A30237 /* iOS Coding Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B3F49D1A784D3A00A30237 /* Build configuration list for PBXNativeTarget "iOS Coding Test" */;
+			buildPhases = (
+				11B3F4731A784D3A00A30237 /* Sources */,
+				11B3F4741A784D3A00A30237 /* Frameworks */,
+				11B3F4751A784D3A00A30237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Coding Test";
+			productName = "iOS Coding Test";
+			productReference = 11B3F4771A784D3A00A30237 /* iOS Coding Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B3F4921A784D3A00A30237 /* iOS Coding TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B3F4A01A784D3A00A30237 /* Build configuration list for PBXNativeTarget "iOS Coding TestTests" */;
+			buildPhases = (
+				11B3F48F1A784D3A00A30237 /* Sources */,
+				11B3F4901A784D3A00A30237 /* Frameworks */,
+				11B3F4911A784D3A00A30237 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B3F4951A784D3A00A30237 /* PBXTargetDependency */,
+			);
+			name = "iOS Coding TestTests";
+			productName = "iOS Coding TestTests";
+			productReference = 11B3F4931A784D3A00A30237 /* iOS Coding TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B3F46F1A784D3A00A30237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Farran, Luke";
+				TargetAttributes = {
+					11B3F4761A784D3A00A30237 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					11B3F4921A784D3A00A30237 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 11B3F4761A784D3A00A30237;
+					};
+				};
+			};
+			buildConfigurationList = 11B3F4721A784D3A00A30237 /* Build configuration list for PBXProject "iOS Coding Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B3F46E1A784D3A00A30237;
+			productRefGroup = 11B3F4781A784D3A00A30237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B3F4761A784D3A00A30237 /* iOS Coding Test */,
+				11B3F4921A784D3A00A30237 /* iOS Coding TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B3F4751A784D3A00A30237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B3F4891A784D3A00A30237 /* Main.storyboard in Resources */,
+				11B3F48E1A784D3A00A30237 /* LaunchScreen.xib in Resources */,
+				1194AE3D1A7892C60074FA44 /* hotels.json in Resources */,
+				11B3F48B1A784D3A00A30237 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B3F4911A784D3A00A30237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B3F4731A784D3A00A30237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1194AE481A78A45D0074FA44 /* Hotels.xcdatamodeld in Sources */,
+				11B73DBD1A791AF9008813C4 /* LBFPersistentStack.m in Sources */,
+				11BEDFD31A7A82FB00786EF3 /* LBFLocationObject.m in Sources */,
+				1194AE451A789ADA0074FA44 /* LBFHotel.m in Sources */,
+				1173089F1A7B3F3400C2116F /* LBFHotelViewCell.m in Sources */,
+				114B2BFC1A798BDF0071B8AD /* LBFIconDownloader.m in Sources */,
+				11B3F4801A784D3A00A30237 /* LBFAppDelegate.m in Sources */,
+				1194AE4B1A78A8DE0074FA44 /* LBFJsonImporter.m in Sources */,
+				11B73DC71A792455008813C4 /* LBFFetchedResultsControllerData.m in Sources */,
+				1194AE401A7899E80074FA44 /* LBFModelObject.m in Sources */,
+				11BEDFD61A7A93B400786EF3 /* LBFMapAnnotation.m in Sources */,
+				11B3F47D1A784D3A00A30237 /* main.m in Sources */,
+				11B73DC31A7923DB008813C4 /* LBFListViewController.m in Sources */,
+				11B73DC41A7923DB008813C4 /* LBFMapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B3F48F1A784D3A00A30237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B3F49A1A784D3A00A30237 /* iOS_Coding_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B3F4951A784D3A00A30237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B3F4761A784D3A00A30237 /* iOS Coding Test */;
+			targetProxy = 11B3F4941A784D3A00A30237 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11B3F4871A784D3A00A30237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B3F4881A784D3A00A30237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11B3F48C1A784D3A00A30237 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11B3F48D1A784D3A00A30237 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11B3F49B1A784D3A00A30237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B3F49C1A784D3A00A30237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B3F49E1A784D3A00A30237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Coding Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11B3F49F1A784D3A00A30237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Coding Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11B3F4A11A784D3A00A30237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Coding TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Coding Test.app/iOS Coding Test";
+			};
+			name = Debug;
+		};
+		11B3F4A21A784D3A00A30237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Coding TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Coding Test.app/iOS Coding Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B3F4721A784D3A00A30237 /* Build configuration list for PBXProject "iOS Coding Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B3F49B1A784D3A00A30237 /* Debug */,
+				11B3F49C1A784D3A00A30237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B3F49D1A784D3A00A30237 /* Build configuration list for PBXNativeTarget "iOS Coding Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B3F49E1A784D3A00A30237 /* Debug */,
+				11B3F49F1A784D3A00A30237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B3F4A01A784D3A00A30237 /* Build configuration list for PBXNativeTarget "iOS Coding TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B3F4A11A784D3A00A30237 /* Debug */,
+				11B3F4A21A784D3A00A30237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1194AE461A78A45D0074FA44 /* Hotels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1194AE471A78A45D0074FA44 /* Hotels.xcdatamodel */,
+			);
+			currentVersion = 1194AE471A78A45D0074FA44 /* Hotels.xcdatamodel */;
+			path = Hotels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 11B3F46F1A784D3A00A30237 /* Project object */;
+}
